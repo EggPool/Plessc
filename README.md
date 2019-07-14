@@ -1,28 +1,28 @@
-#Plessc
-Plessc is a gui frontend for lessc (or another compiler).  
-This software require:  
+# Plessc
+Plessc is a GUI frontend for lessc (or another compiler).  
+This software requires:  
 * Python 3
 * PyQT
 * lessc (node-less on many distro or npm install lessc)
-* All OS! ( *unix it's better)
+* All OS! (*unix it's better)
 
-##ScreenShot
+## ScreenShot
 ![Screenshot](screenshot.png "1.1")
 
-##Feature
-* Log readable 
-* Open the less file with the editor choosen
-* Open all less file on the folder of the file choosen 
+## Feature
+* Readable Logs
+* Open the less file with the choosen editor
+* Open all less file on the folder of the choosen file
 * Support minify and yui-compress of lessc
-* Save a development version and a minimized (using the option)
-* Auto check if file it's modified and compile
+* Save a development version and a minimized one (using the option)
+* Auto checks if file was modified and compile
 * Sourcemap support
 * Lint in the log area
 
-##Changelog
+## Changelog
 
-See the CHANGELOG.md file
+See CHANGELOG.md file
 
-##Run
+## Run
 
 Execute: plessc.py
